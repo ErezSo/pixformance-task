@@ -1,0 +1,23 @@
+p {
+  width: 35%;
+  height: 244px;
+  background-color: lightgray;
+  color: white;
+  position: relative;
+  border-radius: 5px;
+}
+
+span {
+  float: left;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  line-height: 91px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: red;
+}
+
+span:nth-of-type(5) {
+  background-color: green;
+}
