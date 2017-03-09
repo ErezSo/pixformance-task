@@ -10,12 +10,14 @@ test('A passing test for add', (assert) => {
   const actual = add(2,4);
 
   assert.equal(actual, expected);
+  assert.end();
 });
-
 
 test('A passing test for add2', (assert) => {
   const expected = 4;
   const actual = add2(2);
 
   assert.equal(actual, expected);
+  assert.end();
+
 });
